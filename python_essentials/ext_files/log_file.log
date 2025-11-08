@@ -1,0 +1,17 @@
+[2025-11-08 06:00:01.123] INFO    [System] Boot sequence initiated.
+[2025-11-08 06:00:02.456] INFO    [RTC] Real-time clock initialized successfully.
+[2025-11-08 06:00:03.710] INFO    [UART] Communication link established on COM2.
+[2025-11-08 06:00:04.932] INFO    [SensorTask] Temperature sensor calibration started.
+[2025-11-08 06:00:05.502] INFO    [SensorTask] Calibration completed. Offset value: 0.98°C.
+[2025-11-08 06:02:07.014] ERROR   [I2C] Bus timeout on transaction ID 0x47. Retrying...
+[2025-11-08 06:02:07.120] WARN    [I2C] Recovery attempt 1 initiated.
+[2025-11-08 06:02:08.245] INFO    [I2C] Bus recovered successfully after 1 retry.
+[2025-11-08 06:04:05.612] INFO    [MainLoop] CPU load: 42%. Free heap: 38 KB.
+[2025-11-08 06:06:03.991] ERROR   [SPI] CRC mismatch while reading from Flash sector 0x3F.
+[2025-11-08 06:06:04.362] INFO    [SPI] Retrying read operation for sector 0x3F.
+[2025-11-08 06:06:05.471] INFO    [SPI] Read operation successful after retry.
+[2025-11-08 06:08:06.190] INFO    [Watchdog] Timer serviced successfully.
+[2025-11-08 06:10:04.050] ERROR   [CANBus] Frame lost on channel 1. Bus load: 95%.
+[2025-11-08 06:10:04.970] WARN    [CANBus] Resetting controller.
+[2025-11-08 06:10:06.015] INFO    [CANBus] Controller reset complete. Normal operation resumed.
+[2025-11-08 06:12:02.447] INFO    [MainLoop] System check complete. All tasks running nominally 2025-11-08 06:10:04.050.
