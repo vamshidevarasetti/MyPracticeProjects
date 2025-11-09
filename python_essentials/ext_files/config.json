@@ -1,0 +1,13 @@
+{
+    "app_name": "SensorMonitor",
+    "version": "1.2.3",
+    "author": "vamshi",
+    "logging": {
+        "level": "DEBUG",
+        "file": "app.log"
+    },
+    "sensors": [
+        {"id": 1, "type": "temperature", "unit": "C"},
+        {"id": 2, "type": "pressure", "unit": "bar"}
+    ]
+}

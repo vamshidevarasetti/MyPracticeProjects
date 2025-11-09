@@ -1,0 +1,12 @@
+[2025-11-08 06:02:07.014] ERROR   [I2C] Bus timeout on transaction ID 0x47. Retrying..
+[2025-11-08 06:02:09.221] INFO    Starting system check...
+[2025-11-08 06:02:10.012] ERROR   [I2C] Bus timeout on transaction ID 0x47. Retrying..
+[2025-11-08 06:02:12.100] ERROR   [NET] Connection lost to server.
+[2025-11-08 06:02:13.500] ERROR   [NET] Connection lost to server.
+[2025-11-08 06:02:14.900] ERROR   [TEMP] Sensor value out of range.
+[2025-11-08 06:02:16.000] ERROR   [I2C] Bus timeout on transaction ID 0x47. Retrying..
+[2025-11-08 06:02:18.230] WARN    Temperature slightly high.
+[2025-11-08 06:02:20.450] INFO    [I2C] Bus recovered successfully after 3 retries.
+[2025-11-08 06:02:22.670] INFO    [NET] Reconnected to server successfully.
+[2025-11-08 06:02:24.890] INFO    [TEMP] Sensor value back to normal range.
+[2025-11-08 06:04:05.612] INFO    [MainLoop] CPU load: 42%. Free heap: 38 KB.
