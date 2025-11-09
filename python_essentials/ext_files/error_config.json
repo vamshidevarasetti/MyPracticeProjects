@@ -1,0 +1,4 @@
+{
+    "log_file": "ext_files/app.log",
+    "error_pattern": "ERROR\\s+(.*)"
+}
