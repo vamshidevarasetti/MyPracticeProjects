@@ -49,7 +49,6 @@ def main():
     error_patterns = config.get("error_pattern", "")
     
     print(f"Analyzing log file: {log_path}")
-    print(f"Using error patterns: {error_patterns}")
     
     error_messages = extract_error_messages(log_path, error_patterns)
     print_top_errors(error_messages, args.top_n)
