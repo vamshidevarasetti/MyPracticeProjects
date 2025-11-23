@@ -7,10 +7,13 @@ import requests
 JENKINS_URL = "http://localhost:8080"
 JOB_NAME = "github_autocommit"          # Change to your Jenkins job name
 USER = "vamshidevarasetti"
-TOKEN = "<114e24b8b60536f2537817d0ce5c18f49d>"       # Replace with your real API token
+TOKEN = "114e24b8b60536f2537817d0ce5c18f49d"       # Replace with your real API token
 POLL_INTERVAL = 60               # seconds
 # -------------------------------
 
+'''params = {
+    "ENV": "dev"
+}'''
 
 def get_crumb():
     """Fetch CSRF crumb from Jenkins (if required)."""
