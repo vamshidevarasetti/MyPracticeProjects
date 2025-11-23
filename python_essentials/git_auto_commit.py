@@ -58,5 +58,5 @@ if __name__ == "__main__":
     # Default to current directory if no path provided
     repo_path = sys.argv[1] if len(sys.argv) > 1 else os.getcwd()
     print(f"Running auto-commit for repository: {repo_path}")
-    auto_commit(repo_path, branch_name="main")
+    auto_commit(repo_path, branch_name="master")
     print("Auto-commit process completed.")
