@@ -9,26 +9,26 @@ def auto_commit(repo_path: str, branch_name: str = "master"):
         # 1️⃣ Try opening the repository
         repo = Repo(repo_path)
         if repo.bare:
-            print(f"❌ '{repo_path}' is an empty repository.")
+            print(f"[ERROR] '{repo_path}' is an empty repository.")
             return
 
     except (InvalidGitRepositoryError, NoSuchPathError):
-        print(f"❌ Error: '{repo_path}' is not a valid Git repository.")
+        print(f"[ERROR] Error: '{repo_path}' is not a valid Git repository.")
         return
     
     try:
         # 2️⃣ Ensure we are on the correct branch
         if repo.active_branch.name != branch_name:
-            print(f"🔀 Switching to branch '{branch_name}'...")
+            print(f"Switching to branch '{branch_name}'...")
             repo.git.checkout(branch_name)
 
         # 3️⃣ Stage all changes (new, modified, deleted files)
-        print("📦 Staging all changes...")
+        print("[STAGING] Staging all changes...")
         repo.git.add(A=True)   # equivalent to 'git add -A'
 
         # 4️⃣ Check if there is anything to commit
         if not repo.is_dirty(untracked_files=True):
-            print("✅ No new changes to commit.")
+            print("[OK] No new changes to commit.")
             return
 
         # 5️⃣ Create a commit message with timestamp
@@ -44,14 +44,14 @@ def auto_commit(repo_path: str, branch_name: str = "master"):
         # 7️⃣ Confirm success
         for info in push_info:
             if info.flags & info.ERROR:
-                print(f"❌ Push failed: {info.summary}")
+                print(f"[ERROR] Push failed: {info.summary}")
             else:
-                print(f"✅ Push successful: {info.summary}")
+                print(f"[OK] Push successful: {info.summary}")
 
     except GitCommandError as e:
-        print(f"❌ Git error: {e}")
+        print(f"[ERROR] Git error: {e}")
     except Exception as e:
-        print(f"❌ Unexpected error: {e}")
+        print(f"[ERROR] Unexpected error: {e}")
 
 
 if __name__ == "__main__":
