@@ -30,6 +30,7 @@ def trigger_build():
     headers = get_crumb()
 
     trigger_url = f"{JENKINS_URL}/job/{JOB_NAME}/build"
+    print("trigger_url:", trigger_url)
     resp = requests.post(trigger_url, auth=(USER, TOKEN), headers=headers)
 
     if resp.status_code not in [201, 202]:
