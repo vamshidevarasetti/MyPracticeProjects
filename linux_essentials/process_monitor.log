@@ -1,0 +1,60 @@
+2025-12-24 12:36:29,800 - INFO - Starting process monitor for 'python.exe'
+2025-12-24 12:36:29,872 - INFO - No process named 'python.exe' found.
+2025-12-24 12:36:34,885 - INFO - No process named 'python.exe' found.
+2025-12-24 12:36:39,927 - INFO - No process named 'python.exe' found.
+2025-12-24 12:36:44,986 - INFO - No process named 'python.exe' found.
+2025-12-24 12:36:50,014 - INFO - No process named 'python.exe' found.
+2025-12-24 12:36:55,081 - INFO - No process named 'python.exe' found.
+2025-12-24 12:37:00,328 - INFO - No process named 'python.exe' found.
+2025-12-24 12:37:00,630 - INFO - Process monitor stopped by user.
+2025-12-24 12:38:46,861 - INFO - Starting process monitor for 'chrome.exe'
+2025-12-24 12:38:46,916 - INFO - No process named 'chrome.exe' found.
+2025-12-24 12:38:52,001 - INFO - No process named 'chrome.exe' found.
+2025-12-24 12:38:57,087 - INFO - No process named 'chrome.exe' found.
+2025-12-24 12:38:57,498 - INFO - Process monitor stopped by user.
+2025-12-24 12:39:58,897 - INFO - Starting process monitor for 'bash'
+2025-12-24 12:39:59,045 - INFO - PID=8302 CPU=0.0% MEM=0.05%Status=OK
+2025-12-24 12:39:59,153 - INFO - PID=9255 CPU=0.0% MEM=0.05%Status=OK
+2025-12-24 12:39:59,264 - INFO - PID=16138 CPU=0.0% MEM=0.05%Status=OK
+2025-12-24 12:40:04,432 - INFO - PID=8302 CPU=0.0% MEM=0.05%Status=OK
+2025-12-24 12:40:04,542 - INFO - PID=9255 CPU=0.0% MEM=0.05%Status=OK
+2025-12-24 12:40:04,645 - INFO - PID=16138 CPU=0.0% MEM=0.05%Status=OK
+2025-12-24 12:40:09,935 - INFO - PID=8302 CPU=0.0% MEM=0.05%Status=OK
+2025-12-24 12:40:10,041 - INFO - PID=9255 CPU=0.0% MEM=0.05%Status=OK
+2025-12-24 12:40:10,159 - INFO - PID=16138 CPU=0.0% MEM=0.05%Status=OK
+2025-12-24 12:40:14,650 - INFO - Process monitor stopped by user.
+2025-12-24 12:41:22,026 - INFO - Starting process monitor for 'chrome'
+2025-12-24 12:41:22,186 - INFO - PID=9445 CPU=0.0% MEM=3.00%Status=OK
+2025-12-24 12:41:22,302 - INFO - PID=9467 CPU=0.0% MEM=0.58%Status=OK
+2025-12-24 12:41:22,405 - INFO - PID=9468 CPU=0.0% MEM=0.58%Status=OK
+2025-12-24 12:41:22,507 - INFO - PID=9471 CPU=0.0% MEM=0.17%Status=OK
+2025-12-24 12:41:22,610 - INFO - PID=9505 CPU=0.0% MEM=1.69%Status=OK
+2025-12-24 12:41:22,717 - INFO - PID=9511 CPU=0.0% MEM=1.12%Status=OK
+2025-12-24 12:41:22,840 - INFO - PID=9545 CPU=0.0% MEM=0.52%Status=OK
+2025-12-24 12:41:22,953 - INFO - PID=9644 CPU=9.6% MEM=3.61%Status=OK
+2025-12-24 12:41:23,072 - INFO - PID=12440 CPU=0.0% MEM=2.12%Status=OK
+2025-12-24 12:41:23,190 - INFO - PID=14614 CPU=0.0% MEM=1.12%Status=OK
+2025-12-24 12:41:23,299 - INFO - PID=14647 CPU=0.0% MEM=1.45%Status=OK
+2025-12-24 12:41:23,408 - INFO - PID=14800 CPU=0.0% MEM=0.66%Status=OK
+2025-12-24 12:41:28,580 - INFO - PID=9445 CPU=0.0% MEM=3.00%Status=OK
+2025-12-24 12:41:28,696 - INFO - PID=9467 CPU=0.0% MEM=0.58%Status=OK
+2025-12-24 12:41:28,818 - INFO - PID=9468 CPU=0.0% MEM=0.58%Status=OK
+2025-12-24 12:41:28,930 - INFO - PID=9471 CPU=26.9% MEM=0.17%Status=OK
+2025-12-24 12:41:29,049 - INFO - PID=9505 CPU=0.0% MEM=1.69%Status=OK
+2025-12-24 12:41:29,159 - INFO - PID=9511 CPU=0.0% MEM=1.12%Status=OK
+2025-12-24 12:41:29,286 - INFO - PID=9545 CPU=0.0% MEM=0.52%Status=OK
+2025-12-24 12:41:29,392 - INFO - PID=9644 CPU=0.0% MEM=3.61%Status=OK
+2025-12-24 12:41:29,501 - INFO - PID=12440 CPU=0.0% MEM=2.12%Status=OK
+2025-12-24 12:41:29,607 - INFO - PID=14614 CPU=0.0% MEM=1.12%Status=OK
+2025-12-24 12:41:29,721 - INFO - PID=14647 CPU=0.0% MEM=1.45%Status=OK
+2025-12-24 12:41:29,833 - INFO - PID=14800 CPU=0.0% MEM=0.66%Status=OK
+2025-12-24 12:41:33,995 - INFO - Process monitor stopped by user.
+2025-12-24 12:42:26,539 - INFO - Starting process monitor for 'chrome'
+2025-12-24 12:42:27,614 - INFO - PID=9445 CPU=2.0% MEM=3.00%Status=OK
+2025-12-24 12:42:28,622 - INFO - PID=9467 CPU=0.0% MEM=0.58%Status=OK
+2025-12-24 12:42:29,626 - INFO - PID=9468 CPU=0.0% MEM=0.58%Status=OK
+2025-12-24 12:42:30,633 - INFO - PID=9471 CPU=0.0% MEM=0.17%Status=OK
+2025-12-24 12:42:31,646 - INFO - PID=9505 CPU=3.0% MEM=1.69%Status=OK
+2025-12-24 12:42:32,704 - INFO - PID=9511 CPU=0.9% MEM=1.12%Status=OK
+2025-12-24 12:42:33,727 - INFO - PID=9545 CPU=0.0% MEM=0.52%Status=OK
+2025-12-24 12:42:34,505 - INFO - Process monitor stopped by user.

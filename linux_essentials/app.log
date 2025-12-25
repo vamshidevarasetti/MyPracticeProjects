@@ -1,0 +1,11 @@
+2025-02-10 10:00:01 INFO Starting application
+2025-12-25 10:00:02 ERROR Database connection failed
+2025-12-25 10:00:03 ERROR Database connection failed
+2025-02-10 10:00:04 WARN Low memory
+2025-02-10 10:00:05 ERROR Timeout while calling service
+2025-12-25 10:00:06 ERROR Database connection failed
+2025-12-25 10:00:07 ERROR Timeout while calling service
+2025-02-10 10:00:08 INFO Retrying request
+2025-02-10 10:00:09 ERROR Disk write failure
+2025-02-10 10:00:10 ERROR Disk write failure
+2025-12-25 10:00:11 ERROR Disk write failure

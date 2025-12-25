@@ -1,0 +1,3 @@
+debug=true
+optimize=true
+env=dev
