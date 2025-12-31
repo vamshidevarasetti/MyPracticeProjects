@@ -1,0 +1,5 @@
+/home/vamshi/my_drive/My_git_repo/MyPracticeProjects/build_essentials/cpp_cmake_build/build/CMakeFiles/extlib.dir
+/home/vamshi/my_drive/My_git_repo/MyPracticeProjects/build_essentials/cpp_cmake_build/build/CMakeFiles/dummy_lib.dir
+/home/vamshi/my_drive/My_git_repo/MyPracticeProjects/build_essentials/cpp_cmake_build/build/CMakeFiles/hello.dir
+/home/vamshi/my_drive/My_git_repo/MyPracticeProjects/build_essentials/cpp_cmake_build/build/CMakeFiles/edit_cache.dir
+/home/vamshi/my_drive/My_git_repo/MyPracticeProjects/build_essentials/cpp_cmake_build/build/CMakeFiles/rebuild_cache.dir

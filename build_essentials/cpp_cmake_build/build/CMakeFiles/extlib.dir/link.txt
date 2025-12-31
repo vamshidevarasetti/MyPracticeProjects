@@ -1,0 +1,2 @@
+/usr/bin/ar qc libextlib.a CMakeFiles/extlib.dir/external/extlib/ext.cpp.o
+/usr/bin/ranlib libextlib.a
