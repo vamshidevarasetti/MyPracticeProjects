@@ -2,15 +2,18 @@
 using namespace std;
 
 
-	
-constexpr int square(int x)
-{
-    return x*x;
-}
+class MathUtils {
+public:
+    // Fully valid constexpr static member function
+    constexpr int square(int x) const{
+        return x * x;
+    }
+};
 
 int main()
 {
-    constexpr int result = square(5);
+    constexpr MathUtils mathUtils; // Create a constexpr object
+    constexpr int result = mathUtils.square(5);
     cout << result << endl;
     return 0;
 }
